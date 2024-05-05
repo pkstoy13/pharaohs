@@ -1,11 +1,13 @@
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<h2>KINGS:</h2>
-<ul>
-	<li>Narmer</li>
-	<li>Hor Aha</li>
-	<li>Menes?</li>
-	<li>King Den</li>
-</ul>
+<h2 class="font-bold">KINGS:</h2>
+<div class="flex underline ml-4">
+	<ul>
+		<li>Narmer</li>
+		<li>Hor Aha</li>
+		<li>Menes?</li>
+		<li>King Den</li>
+	</ul>
+</div>
 <h1>Gods:</h1>
 <ul>
 	<li>Horus</li>
@@ -18,3 +20,9 @@
 <div>
 	<div>Karnak - Temple of Amun</div>
 </div>
+
+<style lang="postcss">
+	:global(html) {
+		background-color: theme(colors.indigo.400);
+	}
+</style>
